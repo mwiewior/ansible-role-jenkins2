@@ -17,7 +17,7 @@
 
 - name: Jenkins RPM Key
   rpm_key:
-    key: "/tmp/jenkins/jenkins-ci.org.key"
+    key: "/tmp/jenkins/jenkins.io.key"
     validate_certs: "{{ jenkins2_rpm_key_validate_certs }}"
     state: present
   become: yes
